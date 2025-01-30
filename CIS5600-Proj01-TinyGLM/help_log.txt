@@ -1,0 +1,14 @@
+Conceptual questions: 
+I did not receive help while answering the conceptual questions.
+
+
+
+coding:
+
+jan24 
+
+11:20pm https://stackoverflow.com/questions/12261915/how-to-throw-stdexceptions-with-variable-messages
+
+11:47pm https://stackoverflow.com/questions/12866413/why-does-equality-comparison-between-arrays-not-work
+
+

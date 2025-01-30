@@ -1,0 +1,4 @@
+
+# ignore qt project files 
+hw1_qt/
+build*

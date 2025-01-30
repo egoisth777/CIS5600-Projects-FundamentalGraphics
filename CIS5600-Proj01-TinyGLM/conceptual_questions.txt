@@ -1,0 +1,51 @@
+(5 pts) In mat4.h, there are several declarations of the operator* function. One declaration is 
+vec4 operator*(const vec4 &v) const (line 89), while another is 
+vec4 operator*(const vec4 &v, const mat4 &m) (line 106). Explain the mathematical difference in 
+the output of these functions. Additionally, explain what each of the consts does in each function.
+
+First function: 	vec4 operator*(const vec4 &v) const;
+
+This right-multiplies a 4x4 matrix (the mat4 object that invoked this function, implicitly 
+(mat4* this)) by a 4x1 vector (const vec4 &v argument), thus returning a 4x1 vector (by basic 
+linear algebra laws).
+
+The first const declares the argument v of type vec4 reference as const, indicating and enforcing 
+that v, and hence the original object in memory it references, not be muted within the scope of 
+this function, that it be read-only. The second const declares this specific signature of the 
+function operator* as const, indicating that it may not change the invoking object (mat4* this),
+and allowing it to be called by const instantiations of the mat4 class.
+
+
+Second function:     vec4 operator*(const vec4 &v, const mat4 &m);
+
+This left-multiplies a 4x4 matrix (const mat4 &m argument) by a 1x4 vector (const vec4 &v argument), 
+which returns a 1x4 vector.
+
+The first const declares the argument v of type vec4 reference as const, and thus immutable within
+the scope of this function. The second const does the same but for the argument m of type mat4 
+reference.
+
+
+
+
+(5 pts) In vec4.h, there are two declarations of the operator[] function. Describe a situation in 
+which only the first function (line 25) can be used, and describe a situation in which only the 
+second function (line 28) can be used.
+
+
+First function: 	float operator[](unsigned int index) const;
+
+i.e.
+
+Only this function may be used in the situation that operator[] is being invoked by an object declared
+as const, as class instances (objects) declared const may only invoke const objects (so as to preserve
+its const-ness).
+
+
+Second function:     float& operator[](unsigned int index);
+
+Only this function may be used in the situation that you are changing in-place the float value at 
+operator[](index). This is because this function returns a reference (because of the &) to the original 
+float value in memory, which allows the original value to be muted in place. The other function returns
+a copy of the value, so the original value cannot be changed; it is also declared const, meaning the 
+object invoking operator[] cannot be muted.
