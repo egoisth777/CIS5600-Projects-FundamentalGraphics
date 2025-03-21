@@ -1,0 +1,256 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Windows - 10.0.22635 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/dev/VisualStudioIDE/VisualStudioApp/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-39dibl"
+      binary: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-39dibl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-39dibl'
+        
+        Run Build Command(s): E:/dev/IDEs/Jetbrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_178ea
+        [1/2] E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_178ea.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_178ea.dir\\ /FS -c E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_178ea.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_178ea.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_178ea.exe /implib:cmTC_178ea.lib /pdb:cmTC_178ea.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/dev/VisualStudioIDE/VisualStudioApp/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/dev/VisualStudioIDE/VisualStudioApp/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:48 (find_dependency)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:140 (include)"
+      - "CMakeLists.txt:24 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qw0dtc"
+      binary: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qw0dtc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qw0dtc'
+        
+        Run Build Command(s): E:/dev/IDEs/Jetbrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_08625
+        [1/2] E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /EHsc  -g -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_08625.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_08625.dir\\ /FS -c E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qw0dtc\\src.cxx
+        FAILED: CMakeFiles/cmTC_08625.dir/src.cxx.obj 
+        E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /EHsc  -g -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_08625.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_08625.dir\\ /FS -c E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qw0dtc\\src.cxx
+        cl : Command line warning D9002 : ignoring unknown option '-g'
+        E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qw0dtc\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:48 (find_dependency)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:140 (include)"
+      - "CMakeLists.txt:24 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jhd2et"
+      binary: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jhd2et"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jhd2et'
+        
+        Run Build Command(s): E:/dev/IDEs/Jetbrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d266a
+        [1/2] E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create -g -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d266a.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_d266a.dir\\ /FS -c E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-jhd2et\\CheckFunctionExists.cxx
+        cl : Command line warning D9002 : ignoring unknown option '-g'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d266a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d266a.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_d266a.exe /implib:cmTC_d266a.lib /pdb:cmTC_d266a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_d266a.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d266a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d266a.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_d266a.exe /implib:cmTC_d266a.lib /pdb:cmTC_d266a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d266a.dir\\CheckFunctionExists.cxx.obj /out:cmTC_d266a.exe /implib:cmTC_d266a.lib /pdb:cmTC_d266a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d266a.dir/intermediate.manifest CMakeFiles\\cmTC_d266a.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:48 (find_dependency)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:140 (include)"
+      - "CMakeLists.txt:24 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h4zhk7"
+      binary: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h4zhk7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h4zhk7'
+        
+        Run Build Command(s): E:/dev/IDEs/Jetbrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_f9bba
+        [1/2] E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create -g -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f9bba.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_f9bba.dir\\ /FS -c E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-h4zhk7\\CheckFunctionExists.cxx
+        cl : Command line warning D9002 : ignoring unknown option '-g'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f9bba.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f9bba.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_f9bba.exe /implib:cmTC_f9bba.lib /pdb:cmTC_f9bba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_f9bba.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f9bba.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f9bba.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_f9bba.exe /implib:cmTC_f9bba.lib /pdb:cmTC_f9bba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f9bba.dir\\CheckFunctionExists.cxx.obj /out:cmTC_f9bba.exe /implib:cmTC_f9bba.lib /pdb:cmTC_f9bba.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f9bba.dir/intermediate.manifest CMakeFiles\\cmTC_f9bba.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:31 (check_cxx_source_compiles)"
+      - "E:/dev/IDEs/Jetbrains/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:45 (find_dependency)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:40 (include)"
+      - "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:177 (find_package)"
+      - "CMakeLists.txt:24 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4rr07t"
+      binary: "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4rr07t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/dev/libs/qt/6.2.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4rr07t'
+        
+        Run Build Command(s): E:/dev/IDEs/Jetbrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_62519
+        [1/2] E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /EHsc  -g -std:c++17 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_62519.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_62519.dir\\ /FS -c E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4rr07t\\src.cxx
+        cl : Command line warning D9002 : ignoring unknown option '-g'
+        E:\\repos\\Course-Projects\\CIS5600-Projects-FundamentalGraphics\\CIS5600-Proj02-SceneGraph\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-4rr07t\\src.cxx(17): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\dev\\IDEs\\Jetbrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_62519.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\dev\\VisualStudioIDE\\VisualStudioApp\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_62519.dir\\src.cxx.obj  /out:cmTC_62519.exe /implib:cmTC_62519.lib /pdb:cmTC_62519.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

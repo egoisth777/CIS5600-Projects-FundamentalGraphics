@@ -1,0 +1,26 @@
+# ninja log v6
+970	3693	7600848929321582	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/mainwindow.cpp.obj	c6911d2a3ce062d1
+2	920	7600848928472186	CIS5600-Proj02-SceneGraph_autogen/timestamp	4f66163c27aa9e1a
+981	1025	7600848929426804	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/CIS5600-Proj02-SceneGraph_autogen/EWIEGA46WW/qrc_glsl.cpp.obj	e00f17d45ec15a26
+2	920	7600848928472186	CIS5600-Proj02-SceneGraph_autogen/mocs_compilation.cpp	4f66163c27aa9e1a
+923	964	7600848929198741	E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/EWIEGA46WW/qrc_glsl.cpp	e0beb917c6faaf40
+2	920	7600848928472186	E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/timestamp	4f66163c27aa9e1a
+2	920	7600848928472186	E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/mocs_compilation.cpp	4f66163c27aa9e1a
+923	964	7600848929198741	CIS5600-Proj02-SceneGraph_autogen/EWIEGA46WW/qrc_glsl.cpp	e0beb917c6faaf40
+966	3289	7600848929276514	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/drawable.cpp.obj	502dd84f0c7893cf
+969	2261	7600848929296513	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/main.cpp.obj	3d7bb0a9a40366c0
+967	2479	7600848929286514	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/la.cpp.obj	5b0cbb079aebcc07
+973	3129	7600848929346636	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/openglcontext.cpp.obj	896c01c8462a5499
+977	3343	7600848929391727	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/scene/polygon.cpp.obj	2af8b1418a7cea0e
+976	3427	7600848929371727	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/scene/grid.cpp.obj	6a88f6915697d52
+964	3614	7600848929256149	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/CIS5600-Proj02-SceneGraph_autogen/mocs_compilation.cpp.obj	7e7b9f6b66d07eb5
+979	3668	7600848929401725	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/shaderprogram.cpp.obj	877f83b0336fad39
+972	3739	7600848929331606	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/src/mygl.cpp.obj	362d48f572b0316a
+3739	3950	7600848957009291	CIS5600-Proj02-SceneGraph.exe	960ef87dd6582ddd
+12	349	7601507955878064	CIS5600-Proj02-SceneGraph_autogen/timestamp	4f66163c27aa9e1a
+12	349	7601507955878064	CIS5600-Proj02-SceneGraph_autogen/mocs_compilation.cpp	4f66163c27aa9e1a
+12	349	7601507955878064	E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/timestamp	4f66163c27aa9e1a
+12	349	7601507955878064	E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/mocs_compilation.cpp	4f66163c27aa9e1a
+350	381	7601507956362176	CIS5600-Proj02-SceneGraph_autogen/EWIEGA46WW/qrc_glsl.cpp	e0beb917c6faaf40
+350	381	7601507956362176	E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/EWIEGA46WW/qrc_glsl.cpp	e0beb917c6faaf40
+401	510	7601507956600571	CMakeFiles/CIS5600-Proj02-SceneGraph.dir/CIS5600-Proj02-SceneGraph_autogen/EWIEGA46WW/qrc_glsl.cpp.obj	7b96da20eb12c044

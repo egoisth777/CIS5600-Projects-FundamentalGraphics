@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen",
+	"CMAKE_BINARY_DIR" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph",
+	"CMAKE_SOURCE_DIR" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CIS5600-Proj02-SceneGraph_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/glsl/flat.frag.glsl",
+		"E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/glsl/flat.vert.glsl"
+	],
+	"LOCK_FILE" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CIS5600-Proj02-SceneGraph_autogen.dir/AutoRcc_glsl_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "glsl" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_glsl.cpp",
+	"RCC_EXECUTABLE" : "E:/dev/libs/qt/6.2.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/cmake-build-debug/CMakeFiles/CIS5600-Proj02-SceneGraph_autogen.dir/AutoRcc_glsl_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/repos/Course-Projects/CIS5600-Projects-FundamentalGraphics/CIS5600-Proj02-SceneGraph/glsl.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
